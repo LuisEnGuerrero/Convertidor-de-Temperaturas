@@ -1,0 +1,72 @@
+/* RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* COMPONENTES */
+  .container {
+    display: flex;
+    margin: 5%;
+    margin-top: 18%;
+  }
+  .container div{
+    padding: 2%;
+    border: 4px solid;  
+    border-color: white;
+  }
+  .container p{
+    text-align: justify;  
+    border: 2px solid;
+    padding: 2px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row > div{
+    display: flex;
+    align-items: center;
+    min-height: 10%;
+  }
+  .main {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+  
+  /* UTILIDADES */
+  .color-brown{
+    color: white;
+    background-color: #864000;
+    text-align: center;
+  }
+  .color-red {
+    background-color: #D44000;
+  }
+  .color-orange{
+    background-color: #FF7A00;
+  }
+  .color-yellow {
+    background-color: #FFEFCF;
+  }
+  .padding-10 {
+    padding: 10px;
+  }
+  .text-align-center {
+    text-align: center;
+  }
+  .font-color-white {
+    color: white;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
