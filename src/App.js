@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import "./styles.css";
+import "./Styless.css";
 import Main from "./Main";
 import Footer from "./Footer";
 
